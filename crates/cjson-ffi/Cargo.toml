@@ -1,0 +1,17 @@
+[package]
+name = "cjson-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Drop-in C ABI shared and static library for cJSON implemented in Rust"
+
+[lib]
+name = "cjson"
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+cjson-core = { path = "../cjson-core" }
+
+[lints]
+workspace = true

@@ -1,0 +1,11 @@
+target/
+*.so
+*.so.*
+*.a
+*.dylib
+*.dll
+*.lib
+*.o
+.DS_Store
+a.out
+examples/c_usage
